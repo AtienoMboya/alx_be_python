@@ -16,4 +16,4 @@ if temperature.isdigit():
     else:
         print(f'{float(temperature)}°C is {convert_to_farenheit(float(temperature))}°F')
 else:
-    print("Invalid temperature. Please enter a numeric value")
+    print("Invalid temperature. Please enter a numeric value.")
