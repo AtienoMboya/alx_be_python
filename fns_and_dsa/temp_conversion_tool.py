@@ -8,7 +8,7 @@ def convert_to_farenheit(celsius):
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 temperature = input("Enter the temperature to convert: ")
-unit = input("Is this temperature in Celsius or Farenheit? (C/F):").upper()
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 
 if temperature.isdigit():
     if unit == 'F':
