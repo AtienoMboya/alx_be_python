@@ -1,0 +1,2 @@
+## Programming Paradigms and Exception Handling
+This project equips you with the foundational knowledge of OOP and exception handling in Python. These skills are essential for building well-structured, maintainable, and robust Python applications.
