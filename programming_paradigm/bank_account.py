@@ -6,7 +6,10 @@ class BankAccount:
         return int(self.account_balance + amount)
     
     def withdraw(self, amount):
-        return int(self.account_balance - amount)
+        if amount < self.account_balance:
+            return int(self.account_balance - amount)
+        else:
+            pass
     
     def display_balance(self):
-        print(f'Current Balance: ${self.account_balance}')
+        print(f'Current Balance: ${float(self.account_balance)}')
